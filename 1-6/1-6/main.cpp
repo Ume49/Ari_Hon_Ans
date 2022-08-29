@@ -10,7 +10,7 @@ int main() {
 
 	int max_length = 0;	// 最大の周長
 
-	// 3^n通りチェックする
+	// n^3通りチェックする
 	for (auto x = 0; x < n; x++) {
 		for (auto y = 0; y < n; y++) {
 			// ダブり回避
