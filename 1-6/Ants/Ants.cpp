@@ -11,6 +11,11 @@ void For_Tenkai(int for_count, vector<int>& right_or_left) {
     // 脱出条件 脱出前に処理
     if (for_count == 0) {
         // アリの向きが決まったので時間を求める
+        
+        // 衝突をするたびループ
+        while (true) {
+
+        }
 
         // 
         return;
